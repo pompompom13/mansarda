@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Мансарда – лаунж-бар под крышей на Китай-городе</title>
+<meta name="description" content="Мансарда, лаунж и бар: кальяны под деревянными балками, авторские миксы, веранда во дворике и DJ-сеты. 300 м от м. Китай-город. Пт–сб до 04:00. +7 (999) 906-68-39">
+<meta name="theme-color" content="#0f3a3d">
+<meta property="og:title" content="Мансарда – лаунж-бар на Китай-городе">
+<meta property="og:description" content="Кальяны под крышей, веранда во дворике и DJ-сеты. Большой Спасоглинищевский пер., 9/1с16А">
+<meta property="og:image" content="img/m001.webp">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="apple-touch-icon" href="img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans+Narrow:wght@400;700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script>
+  document.documentElement.className += ' js';
+  try { if (localStorage.getItem('mansarda-age') === 'yes') document.documentElement.className += ' age-ok'; } catch (e) {}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BarOrPub",
+  "name": "Мансарда, лаунж-бар",
+  "telephone": "+79999066839",
+  "address": {"@type": "PostalAddress", "streetAddress": "Большой Спасоглинищевский пер., 9/1с16А, 3 этаж", "addressLocality": "Москва", "addressCountry": "RU"},
+  "geo": {"@type": "GeoCoordinates", "latitude": 55.754639, "longitude": 37.637485},
+  "openingHours": ["Mo-Th 12:00-02:00", "Fr-Sa 12:00-04:00", "Su 12:00-02:00"],
+  "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "ratingCount": "171"}
+}
+</script>
+</head>
+<body>
+
+<div class="age" id="age" role="dialog" aria-modal="true" aria-labelledby="ageTitle">
+  <div class="age__box">
+    <img src="img/logo.svg" alt="Мансарда" class="age__logo" width="1134" height="861">
+    <div id="ageAsk">
+      <p class="age__title" id="ageTitle">Вам уже есть 18?</p>
+      <p class="age__text">На&nbsp;сайте есть информация о&nbsp;кальянах и&nbsp;алкоголе, поэтому он&nbsp;только для взрослых гостей.</p>
+      <div class="age__btns">
+        <button type="button" class="btn btn--orange" id="ageYes">Да, мне есть 18</button>
+        <button type="button" class="btn btn--line" id="ageNo">Нет</button>
+      </div>
+    </div>
+    <div id="ageDeny" hidden>
+      <p class="age__title">Будем ждать вас позже</p>
+      <p class="age__text">К&nbsp;сожалению, сайт доступен только совершеннолетним.</p>
+    </div>
+  </div>
+</div>
+
+<header class="top">
+  <div class="top__in">
+    <a href="#top" class="top__logo"><img src="img/logo.svg" alt="Мансарда" width="70" height="53"></a>
+    <nav class="nav" id="nav" aria-label="Разделы">
+      <a href="#hookah">Кальяны</a>
+      <a href="#yard">Веранда</a>
+      <a href="#menu">Меню</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#contacts">Как найти</a>
+      <a href="tel:+79999066839" class="nav__phone">+7 (999) 906-68-39</a>
+    </nav>
+    <a href="tel:+79999066839" class="btn btn--orange btn--sm top__cta">Забронировать</a>
+    <button class="burger" id="burger" aria-label="Меню навигации" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO: силуэт крыши мансарды -->
+<section class="hero">
+  <div class="roof">
+    <img src="img/m001.webp" alt="Зал Мансарды: оранжевые диваны под деревянными балками и фонари" fetchpriority="high">
+  </div>
+  <div class="wrap hero__in">
+    <div class="stamp" id="stamp" aria-live="polite">
+      <span class="stamp__state" id="stampState">Мансарда</span>
+      <span class="stamp__time" id="stampTime">3 этаж</span>
+    </div>
+    <img class="hero__logo" src="img/logo.svg" alt="Мансарда – лаунж &amp; бар" width="1134" height="861">
+    <h1 class="hero__title">Под самой крышей <span>Китай-города</span></h1>
+    <p class="hero__lead">Деревянные балки, сотня фонариков и&nbsp;оранжевый бархат. Кальяны, которые раскрываются, и&nbsp;музыка, которую сводит хозяин-диджей.</p>
+    <div class="hero__actions">
+      <a href="tel:+79999066839" class="btn btn--orange">Забронировать стол</a>
+      <a href="#hookah" class="btn btn--line">Кальянная карта</a>
+    </div>
+  </div>
+</section>
+
+<!-- FACTS -->
+<section class="facts">
+  <div class="wrap facts__in">
+    <p><b>5,0</b>171 оценка на&nbsp;Яндексе</p>
+    <p><b>300 м</b>от&nbsp;м. Китай-город</p>
+    <p><b>до 04:00</b>в&nbsp;пятницу и&nbsp;субботу</p>
+    <p><b>DJ</b>живые сеты</p>
+  </div>
+</section>
+
+<!-- HOOKAH -->
+<section class="hookah" id="hookah">
+  <div class="wrap">
+    <div class="head reveal">
+      <p class="label">Кальянная карта</p>
+      <h2 class="h2">Дымит <span class="script">полтора часа</span></h2>
+      <p class="lead">Мягкая тяга, угли вовремя, пепел не&nbsp;летит в&nbsp;чашу. Можно собрать кальян-конструктор под себя или взять авторский микс с&nbsp;характером.</p>
+    </div>
+    <div class="hk">
+      <div class="hk__base reveal">
+        <h3>Основа</h3>
+        <ul class="plist">
+          <li><span>Классическая чаша</span><i></i><b>2&#8239;450&nbsp;₽</b></li>
+          <li><span>Премиум-чаша</span><i></i><b>2&#8239;750&nbsp;₽</b></li>
+          <li><span>Парфюмный</span><i></i><b>3&#8239;400&nbsp;₽</b></li>
+          <li><span>На&nbsp;грейпфруте</span><i></i><b>2&#8239;990&nbsp;₽</b></li>
+          <li><span>На&nbsp;гранате</span><i></i><b>3&#8239;200&nbsp;₽</b></li>
+          <li><span>На&nbsp;ананасе</span><i></i><b>3&#8239;400&nbsp;₽</b></li>
+          <li class="hi"><span>Конструктор <small>микс и&nbsp;фруктовая чаша на&nbsp;выбор</small></span><i></i><b>3&#8239;800&nbsp;₽</b></li>
+        </ul>
+      </div>
+      <div class="hk__auth reveal">
+        <h3>Авторские</h3>
+        <div class="cards">
+          <article class="ac"><p class="ac__bowl">на&nbsp;ананасе</p><h4>Голубая лагуна</h4><b>4&#8239;400&nbsp;₽</b></article>
+          <article class="ac"><p class="ac__bowl">на&nbsp;грейпфруте</p><h4>Апероль шприц</h4><b>4&#8239;400&nbsp;₽</b></article>
+          <article class="ac"><p class="ac__bowl">на&nbsp;ананасе</p><h4>Модный оргазм</h4><b>4&#8239;400&nbsp;₽</b></article>
+          <article class="ac ac--top"><p class="ac__bowl">на&nbsp;ананасе</p><h4>Млечный путь</h4><b>5&#8239;900&nbsp;₽</b></article>
+          <article class="ac ac--top"><p class="ac__bowl">на&nbsp;гранате</p><h4>Красный дракон</h4><b>5&#8239;900&nbsp;₽</b></article>
+          <article class="ac ac--top"><p class="ac__bowl">на&nbsp;гранате</p><h4>Домик егеря</h4><b>5&#8239;900&nbsp;₽</b></article>
+        </div>
+      </div>
+    </div>
+    <p class="hookah__note reveal">Хотите кальян домой? Есть аренда, подробности по&nbsp;телефону.</p>
+  </div>
+</section>
+
+<!-- YARD -->
+<section class="yard" id="yard">
+  <div class="wrap yard__grid">
+    <div class="yard__pics">
+      <figure class="yp yp--1 reveal"><img src="img/m045.webp" alt="Веранда во дворике сверху" loading="lazy"></figure>
+      <figure class="yp yp--2 reveal"><img src="img/m038.webp" alt="Гости на веранде с коврами и креслами" loading="lazy"></figure>
+    </div>
+    <div class="reveal">
+      <p class="label label--dark">Веранда</p>
+      <h2 class="h2 h2--dark">Как у&nbsp;бабушки <span class="script">на&nbsp;даче</span></h2>
+      <p class="lead lead--dark">Тихий дворик в&nbsp;самом бойком квартале Китай-города. Ковры, винтажные кресла и&nbsp;кальян на&nbsp;свежем воздухе, пока за&nbsp;пультом диджей.</p>
+      <ul class="yard__list">
+        <li>Летняя веранда во&nbsp;дворике</li>
+        <li>Пианино и&nbsp;джаз в&nbsp;плейлисте</li>
+        <li>Можно с&nbsp;собакой до&nbsp;35&nbsp;см</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- MENU -->
+<section class="menu" id="menu">
+  <div class="wrap">
+    <div class="head reveal">
+      <p class="label">Меню</p>
+      <h2 class="h2">Чай, бар <span class="script">и&nbsp;колбаски</span></h2>
+      <p class="lead">Кухню готовит партнёрский ресторан «Колбаса»: колбаски, мясо на&nbsp;углях, бургеры и&nbsp;сеты на&nbsp;компанию.</p>
+    </div>
+    <div class="tabs" role="tablist" aria-label="Разделы меню">
+      <button role="tab" class="tab is-active" aria-selected="true" data-tab="kitchen">Кухня</button>
+      <button role="tab" class="tab" aria-selected="false" data-tab="tea">Чай</button>
+      <button role="tab" class="tab" aria-selected="false" data-tab="soft">Лимонады и&nbsp;кофе</button>
+      <button role="tab" class="tab" aria-selected="false" data-tab="bar">Бар</button>
+    </div>
+    <div class="menu__body" id="menuBody" aria-live="polite"></div>
+  </div>
+</section>
+
+<!-- NIGHTS -->
+<section class="nights">
+  <div class="wrap">
+    <div class="strip">
+      <figure class="reveal"><img src="img/m023.webp" alt="Фонари под крышей" loading="lazy"></figure>
+      <figure class="reveal"><img src="img/m004.webp" alt="Бар с бирюзовой подсветкой" loading="lazy"></figure>
+      <figure class="reveal"><img src="img/m002.webp" alt="Табак, гранат и угли" loading="lazy"></figure>
+      <figure class="reveal"><img src="img/m022.webp" alt="Уголок с бархатными креслами под скошенной крышей" loading="lazy"></figure>
+    </div>
+    <ul class="perks">
+      <li class="reveal"><b>PlayStation</b>стол с&nbsp;приставкой: депозит 3&#8239;500&nbsp;₽ на&nbsp;2 часа</li>
+      <li class="reveal"><b>Проектор и&nbsp;матчи</b>спортивные трансляции</li>
+      <li class="reveal"><b>Стендапы и&nbsp;настолки</b>и&nbsp;свой танцпол</li>
+      <li class="reveal"><b>Праздники</b>день рождения, корпоратив, свидание</li>
+    </ul>
+    <div class="gal">
+      <figure class="g g--w reveal"><img src="img/m018.webp" alt="Гирлянды и фонари под крышей вечером" loading="lazy"></figure>
+      <figure class="g g--t reveal"><img src="img/m036.webp" alt="Пианино на веранде во дворике" loading="lazy"></figure>
+      <figure class="g reveal"><img src="img/m030.webp" alt="Чай в стеклянном чайнике и две чашки" loading="lazy"></figure>
+      <figure class="g reveal"><img src="img/m007.webp" alt="Светящийся логотип Мансарды над диванами" loading="lazy"></figure>
+      <figure class="g reveal"><img src="img/m047.webp" alt="Гости на веранде днём" loading="lazy"></figure>
+      <figure class="g reveal"><img src="img/m016.webp" alt="Оранжевые диваны и фонари под балками" loading="lazy"></figure>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="reviews" id="reviews">
+  <div class="wrap">
+    <div class="reviews__head reveal">
+      <div>
+        <p class="label">Отзывы</p>
+        <h2 class="h2">Нашли <span class="script">и&nbsp;не&nbsp;отпускает</span></h2>
+      </div>
+      <div class="score"><b>5,0</b><span>★★★★★<br>172 отзыва · 171 оценка<br>на&nbsp;Яндекс Картах</span></div>
+    </div>
+    <div class="quotes">
+      <figure class="q q--big reveal">
+        <blockquote>Лучшая веранда этого города с&nbsp;лучшим владельцем-диджеем!</blockquote>
+        <figcaption><b>Гость</b><span>Яндекс Карты · 18 июня</span></figcaption>
+      </figure>
+      <figure class="q reveal">
+        <blockquote>Кальян просто бомба: тяга мягкая, дымил все полтора часа, угли меняли вовремя.</blockquote>
+        <figcaption><b>Гость</b><span>Яндекс Карты · 25 апреля</span></figcaption>
+      </figure>
+      <figure class="q reveal">
+        <blockquote>Такой стиль, уют и&nbsp;винтажный вайб, как у&nbsp;бабушки на&nbsp;даче. И&nbsp;кальяны вкусные, и&nbsp;напитки, и&nbsp;диджей вкусный!</blockquote>
+        <figcaption><b>Гость</b><span>Яндекс Карты · 7 июня</span></figcaption>
+      </figure>
+      <figure class="q reveal">
+        <blockquote>Можно расслабиться с&nbsp;кальяном в&nbsp;винтажном кресле, любуясь пейзажем дворика. В&nbsp;плейлисте у&nbsp;ребят в&nbsp;том числе джаз.</blockquote>
+        <figcaption><b>Гость</b><span>Яндекс Карты · 10 июня</span></figcaption>
+      </figure>
+    </div>
+    <a class="more" href="https://yandex.ru/maps/org/mansarda_launzh_bar/83750617761/reviews/" target="_blank" rel="noopener">Все отзывы на&nbsp;Яндекс Картах&nbsp;→</a>
+  </div>
+</section>
+
+<!-- CONTACTS -->
+<section class="contacts" id="contacts">
+  <div class="wrap contacts__grid">
+    <div class="reveal">
+      <p class="label">Как найти</p>
+      <h2 class="h2">Во&nbsp;дворике, <span class="script">на&nbsp;3&nbsp;этаже</span></h2>
+      <dl class="info">
+        <div><dt>Адрес</dt><dd>Москва, Большой Спасоглинищевский пер., 9/1с16А<span class="sub">3 этаж · м. Китай-город, 300 м</span></dd></div>
+        <div><dt>Телефон</dt><dd><a href="tel:+79999066839">+7 (999) 906-68-39</a></dd></div>
+        <div><dt>Оплата</dt><dd>Карта, наличные, СБП, QR-код</dd></div>
+      </dl>
+      <ul class="week" id="week" aria-label="Часы работы"></ul>
+      <div class="contacts__actions">
+        <a href="tel:+79999066839" class="btn btn--orange">Позвонить</a>
+        <a href="https://t.me/mansarda_loungebar" target="_blank" rel="noopener" class="btn btn--line">Telegram</a>
+        <a href="https://yandex.ru/maps/org/mansarda_launzh_bar/83750617761/" target="_blank" rel="noopener" class="btn btn--line">Маршрут</a>
+      </div>
+      <figure class="find">
+        <img src="img/m048.webp" alt="Вывеска Мансарды во дворе" loading="lazy">
+        <figcaption>Заходите во&nbsp;двор и&nbsp;ищите круглую вывеску <b>«Мансарда»</b>. Не&nbsp;сразу заметно, зато потом не&nbsp;забудете.</figcaption>
+      </figure>
+    </div>
+    <div class="map reveal">
+      <iframe title="Мансарда на Яндекс Картах" src="https://yandex.ru/map-widget/v1/?ll=37.637485%2C55.754639&z=17&pt=37.637485%2C55.754639%2Cpm2orl" loading="lazy" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__in">
+    <img src="img/logo.svg" alt="Мансарда" class="footer__logo" loading="lazy">
+    <nav class="footer__nav" aria-label="Разделы">
+      <a href="#hookah">Кальяны</a><a href="#yard">Веранда</a><a href="#menu">Меню</a><a href="#contacts">Как найти</a>
+    </nav>
+    <div class="footer__meta">
+      <a href="tel:+79999066839">+7 (999) 906-68-39</a>
+      <span>Б. Спасоглинищевский пер., 9/1с16А</span>
+    </div>
+  </div>
+  <div class="wrap footer__legal">
+    <span>© Мансарда · лаунж &amp; бар</span>
+    <span>18+ · Информация на&nbsp;сайте носит справочный характер и&nbsp;не&nbsp;является рекламой. Чрезмерное употребление алкоголя вредит вашему здоровью.</span>
+  </div>
+</footer>
+
+<div class="dock" aria-label="Быстрые действия">
+  <a href="tel:+79999066839">Позвонить</a>
+  <a href="#menu">Меню</a>
+  <a href="https://yandex.ru/maps/org/mansarda_launzh_bar/83750617761/" target="_blank" rel="noopener">Маршрут</a>
+</div>
+
+<script src="menu.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
